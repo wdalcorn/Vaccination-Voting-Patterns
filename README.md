@@ -1,4 +1,3 @@
-# Vaccination-Voting-Patterns
 # COVID-19 Vaccination Rates and Political Partisanship
 
 An analysis of county-level vaccination rates and their correlation with 2020 and 2024 presidential election results.
@@ -17,8 +16,8 @@ Using CDC and MIT Election Lab data (3,021 counties), this project examines the 
 
 ## Data Sources
 
-- **Vaccination data:** CDC COVID-19 county-level vaccination rates (January 2021 - May 2023)
-- **Election data:** MIT Election Lab county presidential returns (2020, 2024)
+- **Vaccination data:** [CDC COVID-19 county-level vaccination rates](https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh) (January 2021 - May 2023) - download from CDC directly (file too large for GitHub)
+- **Election data:** [MIT Election Lab county presidential returns](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ) (2020, 2024)
 
 ## Methods
 
@@ -47,7 +46,7 @@ Using CDC and MIT Election Lab data (3,021 counties), this project examines the 
 ```
 /data
     countypres_2000-2024.csv    - MIT Election Lab county presidential returns
-    Covid_data.csv              - CDC county vaccination data
+    (COVID data too large for GitHub - download from CDC link above)
 
 /scripts
     PS8.R                       - Core analysis and visualizations
